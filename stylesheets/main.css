@@ -1,0 +1,221 @@
+* {
+  /* border: 1px solid black; */
+}
+body {
+  display: block;
+  margin: 0;
+}
+header {
+  height: 150px;
+  background-color: rgba(21, 99, 203, 0.75);
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.clock {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 45px 25px 0px 350px;
+  background-color: rgba(0, 0, 0, .01);
+}
+.hour-hand {
+  width: 20px;
+  height: 3px;
+  border-right: 2px solid white;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.min-hand {
+  width: 2px;
+  height: 40px;
+  border-right: 2px solid white;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 90px;
+  display: inline-block;
+  margin: 0 0 20 100;
+  color: white;
+  font-family: Century Gothic, sans-serif;
+}
+body div {
+  margin-top: 5px;
+  float: left;
+  height: 900px;
+  background-color: white;
+}
+.left {
+  width: 200px;
+}
+.date1 {
+  height: 30px;
+  color: rgba(21, 117, 203, 0.67);
+  font-family: Century Gothic, sans-serif;
+  text-align: right;
+  float: right;
+  margin-right: 8px;
+}
+.date2 {
+  height: 30px;
+  color: rgba(20, 107, 205, 0.82);
+  font-family: Century Gothic, sans-serif;
+  text-align: right;
+  float: right;
+  margin-top: 290px;
+  margin-right: 8px;
+}
+.date3 {
+  height: 30px;
+  color: rgba(20, 75, 205, 0.81);
+  font-family: Century Gothic, sans-serif;
+  text-align: right;
+  float: right;
+  margin-top: 240px;
+  margin-right: 8px;
+}
+.minute1 {
+  font-size: 50px;
+  margin-top: 0;
+  float: right;
+  margin-right: 5px;
+}
+.minute2 {
+  font-size: 50px;
+  margin-top: 0;
+  float: right;
+  margin-right: 5px;
+}
+.minute3 {
+  font-size: 50px;
+  margin-top: 0;
+  float: right;
+  margin-right: 5px;
+}
+.date {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.middle {
+  width: 65px;
+}
+.circle {
+  float: right;
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+  border-color: white;
+  background-color: rgba(21, 117, 203, 0.67);
+  opacity: .5;
+}
+.uno {
+  margin-top: 60px;
+}
+.bar1 {
+  width: 1px;
+  height: 260px;
+  border-right: 7px solid;
+  border-color: rgba(22, 91, 202, 0.40);
+  margin: 0 30px 0 33px;
+}
+.dos {
+  margin-top: 0px;
+}
+.bar2 {
+  width: 1px;
+  height: 210px;
+  border-right: 7px solid;
+  border-color: rgba(22, 91, 202, 0.40);
+  margin: 0 30px 0 33px;
+}
+.tres {
+  margin-top: 0px;
+}
+.bar3 {
+  width: 1px;
+  height: 250px;
+  border-right: 7px solid;
+  border-color: rgba(22, 91, 202, 0.40);
+  margin: 0 30px 0 33px;
+}
+.tiny {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: rgba(16, 84, 144, 0.58);
+  /* background-color: rgba(22, 91, 202, 0.69); */
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.one {
+  background-image: url('images/Screen Shot 2015-05-06 at 2.46.17 PM.png');
+  background-size: contain;
+  background-position: center;
+}
+.two {
+  background-image: url('images/Screen Shot 2015-05-06 at 2.47.05 PM.png');
+  background-size: contain;
+  background-position: right;
+}
+.three {
+  background-image: url('images/Screen Shot 2015-05-06 at 2.46.17 PM.png');
+  background-size: contain;
+  background-position: center;
+}
+.right {
+  width: 800px;
+}
+.time {
+  width: 680px;
+  margin-left: 8px;
+  border-radius: 1%;
+}
+.time:hover {
+  transition: padding 1s;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.top {
+  margin-top: 30px;
+  height: 300px;
+  background-color: rgba(21, 117, 203, 0.67);
+}
+.center {
+  margin-top: 20px;
+  height: 250px;
+  background-color: rgba(20, 107, 205, 0.82);
+}
+.bottom {
+  margin-top: 20px;
+  height: 250px;
+  background-color: rgba(20, 75, 205, 0.81);
+}
+h2 {
+  color: white;
+  margin: 10px 10px 5px 10px;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+}
+.line {
+  height: 1px;
+  width: 600px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 5px;
+  opacity: .5;
+  background-color: white;
+  border-bottom: 2px solid white;
+}
+.text {
+  margin: 20px 10px 5px 10px;
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  color: white;
+  text-align: center;
+}
